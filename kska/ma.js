@@ -1,6 +1,6 @@
 $( document ).ready(function() {
-loadjscssfile("https://buzzbold.com/utility/kska/patch.css", "css");
-loadjscssfile("https://buzzbold.com/utility/kska/jquery.radiosforbuttons.min.js"
+loadjscssfile("https://buzzbold.github.io/mobi-llegiance/kska/patch.css", "css");
+loadjscssfile("https://buzzbold.github.io/mobi-llegiance/js/jquery.radiosforbuttons.min.js"
 , "js");
  $('#ctl00_AllegMain_wrkEmail').attr('placeholder', 'me@mydomain.net');
 $('#ctl00_AllegMain_wrkPhone').attr('placeholder', '907-000-0000');
