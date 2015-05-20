@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-loadjscssfile("https://buzzbold.github.io/mobi-llegiance/kska/patch.css", "css");
+loadjscssfile("https://buzzbold.github.io/mobi-llegiance/kska/ma.css", "css");
 loadjscssfile("https://buzzbold.github.io/mobi-llegiance/js/jquery.radiosforbuttons.min.js"
 , "js");
  $('#ctl00_AllegMain_wrkEmail').attr('placeholder', 'me@mydomain.net');
