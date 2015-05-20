@@ -1,0 +1,31 @@
+html{text-align:center;width:100%!important;position:relative;}
+body{text-align:left;width:100%!important;max-width:700px!important;font-size:12pt!important;background-image:url(http://www.alaskapublic.org/wp-content/themes/alaskapublic/akpm-page-background.jpg);margin:1em auto!important;position:relative;}
+table{width:100%!important;}
+.MAINTABLE:nth-child(1):before{content:"<p>Single Donation</p>";}
+#ctl00_AllegMain_MainPanel > table:nth-child(51) > tbody > tr:nth-child(1) > td > table > tbody > tr > td.ALLEGHEADERS > img:nth-child(1){display:none!important;}
+#ctl00_AllegMain_MainPanel > table:nth-child(51) > tbody > tr:nth-child(1) > td > table > tbody > tr > td.ALLEGHEADERS > img:nth-child(4){max-width:100%!important;height:auto!important;}
+#ctl00_AllegMain_MainPanel > table:nth-child(51) > tbody > tr:nth-child(2) > td > table > tbody > tr > td.ALLEGSECTIONS > a > img{right:1em!important;margin:0!important}
+form:first-of-type:before{content:url('http://www.alaskapublic.org/wp-content/headers/akpm-web-logo-with-tagline.gif');max-width:90%;}
+form{background:white!important;border:1px solid #ccc;padding:1em;}
+.ALLEGSECTIONS,.ALLEGELEMENTS,.ALLEGQUESTIONS{line-height:1.4em!important;color:#333!important;font-size:12pt!important;}
+.ALLEGELEMENTS{padding:3px!important;}
+.ALLEGHEADERS,.MAINTABLE,.MAINSHIPTABLE2,.ALLEGHEADERS div{width:100%!important;}
+.ALLEGHEADERS{color:#339!important;line-height:1.2em!important;font-size:16pt!important;}
+.ALLEGHEADERS div{background:none!important;border-top:1px dotted #DDD!important;}
+td.ALLEGHEADERSE{display:none!important}
+.HEADERSTABLE{width:100%!important;}
+select,textarea,#ctl00_AllegMain_MATCH12,#ctl00_AllegMain_wrkEsalu,#ctl00_AllegMain_wrkAddr,#ctl00_AllegMain_wrkPhone,#ctl00_AllegMain_wrkEmail,#ctl00_AllegMain_MATCHLI{width:85%!important;}
+.ALLEGQUESTIONS{width:75%!important;}
+input,select,textarea{border:1px solid #aaa!important;font-size:14pt!important;padding:2px;color:#666;}
+input[type="text"],textarea{box-shadow:0px -1px 5px #ddd inset;border-radius:3px}
+input[type="submit"],input[type="button"],button[type="button"]{border-style:solid!important;border-color:#161!important;border-left-width:1px!important;border-top-width:0px!important;border-bottom-width:3px!important;border-right-width:1px!important;background:#4A4;color:white;text-transform:uppercase;padding:.2em .5em;font-size:12
+pt!important;}
+#ctl00_AllegMain_UPGRADETABLE tr,input{-webkit-transition:all .2s;transition:all .2s;}
+#ctl00_AllegMain_UPGRADETABLE tr:hover{background:#eee;}
+@media screen AND (max-width:400px){
+        body{font-size:10pt!important;}
+        input,select,textarea{border:1px solid #aaa!important;font-size:13pt!important;padding:2px;color:#666;}
+        .ALLEGSECTIONS,.ALLEGELEMENTS,.ALLEGQUESTIONS{line-height:1.2em!important;font-size:9pt!important;}
+        .ALLEGHEADERS{line-height:1.1em!important;font-size:13pt!important;}
+        #ctl00_AllegMain_wrkCity{width:130px!important;}
+}
