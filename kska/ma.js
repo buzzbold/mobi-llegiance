@@ -38,7 +38,7 @@ var sustText = '<span class="btn-giving-text" id="sustText" >Make a Monthly Gift
  var searchedText = 'Thank you for becoming a Sustainer';
   $("td.ALLEGSECTIONS:contains('"+searchedText+"')").each( function( i, element ) {
        var content = $(element).text();
-       content = content.replace( content, content+singleText );
+       content = content.replace( content, singleText+content );
        $(element).html( content );
   });
 
