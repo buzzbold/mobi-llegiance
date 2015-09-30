@@ -33,4 +33,13 @@ var sustText = '<span class="btn-giving-text" id="sustText" >Make a Monthly Gift
   $('#sust').parent().html(sustText);
   $('#sustText').parent().addClass('btn-giving');
 
+  var singleText = '<a href="https://secure.alaskapublic.org/WebModule/Donate.aspx?P=P1506W&PAGETYPE=PLG&CHECK=UtaN75o9T72x6prc3yxoWxiCxtaFReuS" class="btn-giving"><span class="btn-giving-text" id="sustText">Make a One Time Gift</span></a>';
+
+ var searchedText = $('Thank you for becoming a Sustainer').val();
+  $("td.ALLEGSECTIONS:contains('"+searchedText+"')").each( function( i, element ) {
+       var content = $(element).text();
+       content = content.replace( content, content+singleText );
+       element.html( content );
+  });
+
  }
