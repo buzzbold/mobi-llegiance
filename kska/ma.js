@@ -42,7 +42,7 @@ if (allegMode =="FULL") {
 function insertHeaders() {
 //$(".ALLEGHEADERS div").text("");
 var givAmtHeader = '<h2 class="alaskapublicFormHighlight">1. How Much would you like to give?</h2>'
-$("#ctl00_AllegMain_UPGRADETABLE_0").insertBefore(givAmtHeader);
+$(givAmtHeader).insertBefore("#ctl00_AllegMain_UPGRADETABLE_0");
 var payInfoHeader = '<h2 class="alaskapublicFormHighlight">2. Payment Information</h2>'
 //$("#ctl00_AllegMain_SECTIONNAMEADDRESS").insertBefore(payInfoHeader);
 
