@@ -50,7 +50,7 @@ $(payInfoHeader).insertBefore("#ctl00_AllegMain_SECTIONNAMEADDRESS");
 }
 
 function insertImageHeader() {
-var formFirstElem = $( form ).first().children().first();
+var formFirstElem = $('form').first().children().first();
 var imgHeader = '<img src="https://buzzbold.github.io/mobi-llegiance/kska/akpm-web-logo-with-tagline.png" class="headerimg"/>';
 $(imgHeader).insertBefore(formFirstElem);
 
