@@ -29,4 +29,4 @@ pt!important;}
         .ALLEGHEADERS{line-height:1.1em!important;font-size:13pt!important;}
         #ctl00_AllegMain_wrkCity{width:130px!important;}
 }
-#sust {position:absolute; margin-left:300px; margin-top:10px; max-width:30%!important;}
+#sust {position:absolute; margin-left:300px; margin-top:10px; max-width:30%!important; border:2px solid green; }

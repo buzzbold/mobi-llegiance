@@ -4,6 +4,10 @@ loadjscssfile("https://buzzbold.github.io/mobi-llegiance/js/jquery.radiosforbutt
 , "js");
  $('#ctl00_AllegMain_wrkEmail').attr('placeholder', 'me@mydomain.net');
 $('#ctl00_AllegMain_wrkPhone').attr('placeholder', '907-000-0000');
+
+
+
+
 });
 function loadjscssfile(filename, filetype){
  if (filetype=="js"){ //if filename is a external JavaScript file
@@ -21,3 +25,8 @@ function loadjscssfile(filename, filetype){
     if (typeof fileref!="undefined")
         document.getElementsByTagName("head")[0].appendChild(fileref)
 }
+
+
+// function applyButtonStyle() {
+//
+// }
