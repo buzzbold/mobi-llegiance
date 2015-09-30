@@ -12,7 +12,7 @@ form{background:white!important;border:1px solid #ccc;padding:1em;}
 .ALLEGSECTIONS,.ALLEGELEMENTS,.ALLEGQUESTIONS{line-height:1.4em!important;color:#333!important;font-size:12pt!important;}
 .ALLEGELEMENTS{padding:3px!important;}
 .ALLEGHEADERS,.MAINTABLE,.MAINSHIPTABLE2,.ALLEGHEADERS div{width:100%!important;}
-.ALLEGHEADERS{display:none!important}
+.ALLEGHEADERS{}
 .ALLEGHEADERS div{background:none!important;border:none!important;}
 td.ALLEGHEADERSE{display:none!important}
 .HEADERSTABLE{width:100%!important;}
