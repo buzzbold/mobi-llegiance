@@ -12,8 +12,8 @@ form{background:white!important;border:1px solid #ccc;padding:1em;}
 .ALLEGSECTIONS,.ALLEGELEMENTS,.ALLEGQUESTIONS{line-height:1.4em!important;color:#333!important;font-size:12pt!important;}
 .ALLEGELEMENTS{padding:3px!important;}
 .ALLEGHEADERS,.MAINTABLE,.MAINSHIPTABLE2,.ALLEGHEADERS div{width:100%!important;}
-.ALLEGHEADERS{color:#339!important;line-height:1.2em!important;font-size:16pt!important;}
-.ALLEGHEADERS div{background:none!important;border-top:1px dotted #DDD!important;}
+.ALLEGHEADERS{display:none!important}
+.ALLEGHEADERS div{background:none!important;border:none!important;}
 td.ALLEGHEADERSE{display:none!important}
 .HEADERSTABLE{width:100%!important;}
 select,textarea,#ctl00_AllegMain_MATCH12,#ctl00_AllegMain_wrkEsalu,#ctl00_AllegMain_wrkAddr,#ctl00_AllegMain_wrkPhone,#ctl00_AllegMain_wrkEmail,#ctl00_AllegMain_MATCHLI{width:85%!important;}
