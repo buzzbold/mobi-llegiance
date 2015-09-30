@@ -7,13 +7,14 @@ table{width:100%!important;}
 #ctl00_AllegMain_MainPanel > table:nth-child(51) > tbody > tr:nth-child(1) > td > table > tbody > tr > td.ALLEGHEADERS > img:nth-child(1){display:none!important;}
 #ctl00_AllegMain_MainPanel > table:nth-child(51) > tbody > tr:nth-child(1) > td > table > tbody > tr > td.ALLEGHEADERS > img:nth-child(4){max-width:100%!important;height:auto!important;}
 #ctl00_AllegMain_MainPanel > table:nth-child(51) > tbody > tr:nth-child(2) > td > table > tbody > tr > td.ALLEGSECTIONS > a > img{right:1em!important;margin:0!important}
-form:first-of-type:before{content:url('https://buzzbold.github.io/mobi-llegiance/kska/akpm-web-logo-with-tagline.png');max-width:80%!important;}
+form:first-of-type:before{content:url('https://buzzbold.github.io/mobi-llegiance/kska/akpm-web-logo-with-tagline.png');
+max-width:80%!important; height:auto;}
 form{background:white!important;border:1px solid #ccc;padding:1em;}
 .ALLEGSECTIONS,.ALLEGELEMENTS,.ALLEGQUESTIONS{line-height:1.4em!important;color:#333!important;font-size:12pt!important;}
 .ALLEGELEMENTS{padding:3px!important;}
 .ALLEGHEADERS,.MAINTABLE,.MAINSHIPTABLE2,.ALLEGHEADERS div{width:100%!important;}
 .ALLEGHEADERS{}
-.ALLEGHEADERS div{background:none!important;border:none!important;}
+.ALLEGHEADERS div{display:none;}
 td.ALLEGHEADERSE{display:none!important}
 .HEADERSTABLE{width:100%!important;}
 select,textarea,#ctl00_AllegMain_MATCH12,#ctl00_AllegMain_wrkEsalu,#ctl00_AllegMain_wrkAddr,#ctl00_AllegMain_wrkPhone,#ctl00_AllegMain_wrkEmail,#ctl00_AllegMain_MATCHLI{width:85%!important;}
