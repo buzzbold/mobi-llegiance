@@ -29,4 +29,6 @@ pt!important;}
         .ALLEGHEADERS{line-height:1.1em!important;font-size:13pt!important;}
         #ctl00_AllegMain_wrkCity{width:130px!important;}
 }
-#sust {position:absolute; margin-left:300px; margin-top:10px; max-width:30%!important; border:2px solid green; display:inline-block; padding:.5em .2em; background-color: #FF6666; color:white; font-weight: bold; text-transform: uppercase;}
+#sust {position:absolute; margin-left:300px; margin-top:10px; max-width:30%!important;}
+.btn-giving {border-style:solid!important;border-color:#161!important;border-left-width:1px!important;border-top-width:0px!important;border-bottom-width:3px!important;border-right-width:1px!important;background:#4A4;color:white;text-transform:uppercase;padding:.2em .5em;font-size:12
+pt!important;}
