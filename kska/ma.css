@@ -1,3 +1,4 @@
+#sust {visibility: hidden}
 form{-webkit-transition:all .2s;transition:all .2s;}
 html{text-align:center;width:100%!important;position:relative;}
 body{text-align:left;width:100%!important;max-width:700px!important;font-size:12pt!important;background-image:url(https://buzzbold.github.io/mobi-llegiance/kska/akpm-page-background.jpg);margin:1em auto!important;position:relative;}
@@ -30,7 +31,7 @@ pt!important;}
         .ALLEGHEADERS{line-height:1.1em!important;font-size:13pt!important;}
         #ctl00_AllegMain_wrkCity{width:130px!important;}
 }
-#sust {position:absolute; margin-left:300px; margin-top:10px; max-width:30%!important;}
+
 .btn-giving,
 .btn-giving:link,
 .btn-giving:visited {float: right; margin-left:2em; margin-bottom: 2em; text-decoration: none; border-style:solid!important;border-color:#361!important;border-left-width:1px!important;border-top-width:0px!important;border-bottom-width:3px!important;border-right-width:1px!important;background:#7A4;color:white;text-transform:uppercase;padding:.5em .3em;font-size:10pt!important;}
