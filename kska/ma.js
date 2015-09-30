@@ -6,7 +6,7 @@ loadjscssfile("https://buzzbold.github.io/mobi-llegiance/js/jquery.radiosforbutt
 $('#ctl00_AllegMain_wrkPhone').attr('placeholder', '907-000-0000');
 
 
-
+applyButtonStyle();
 
 });
 function loadjscssfile(filename, filetype){
@@ -27,6 +27,7 @@ function loadjscssfile(filename, filetype){
 }
 
 
-// function applyButtonStyle() {
-//
-// }
+ function applyButtonStyle() {
+var sustText = '<span class="btnTxt">Make a Monthly Gift</span>';
+  $('#sust').innerHTML(sustText);
+ }
