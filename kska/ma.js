@@ -6,7 +6,7 @@ loadjscssfile("https://buzzbold.github.io/mobi-llegiance/js/jquery.radiosforbutt
 $('#ctl00_AllegMain_wrkPhone').attr('placeholder', '907-000-0000');
 
 
-applyButtonStyle();
+appendGiftChange();
 
 });
 function loadjscssfile(filename, filetype){
@@ -27,22 +27,14 @@ function loadjscssfile(filename, filetype){
 }
 
 
- function applyButtonStyle() {
-
+ function appendGiftChange() {
 var allegMode = $("#ctl00_AllegMain_wrkAmountsPeriodic").val();
 console.log(allegMode);
-var sustText = '<span class="btn-giving-text" id="sustText" >Make a Monthly Gift Instead</span>';
-  $('#sust').parent().addClass('btn-giving');
-  $('#sust').parent().html(sustText);
-  $('#sustText').parent().addClass('btn-giving');
-
-  var singleText = '<a href="https://secure.alaskapublic.org/WebModule/Donate.aspx?P=P1506W&PAGETYPE=PLG&CHECK=UtaN75o9T72x6prc3yxoWxiCxtaFReuS" class="btn-giving"><span class="btn-giving-text" id="sustText">Make a One Time Gift Instead</span></a>';
-
- var searchedText = 'Thank you for becoming a Sustainer';
-  $("td.ALLEGSECTIONS:contains('"+searchedText+"')").each( function( i, element ) {
-       var content = $(element).text();
-       content = content.replace( content, singleText+content );
-       $(element).html( content );
-  });
-
+var appendText;
+if (allegMode =="FULL") {
+ appendText = '<p><a  id="linkForm monthly" href="http://bit.ly/1VRWuDG" >I want to make a monthly contribution.</a></p>';
+} else {
+  appendText = '<p><a  id="linkForm single" href="https://secure.alaskapublic.org/WebModule/Donate.aspx?P=P1506W&PAGETYPE=PLG&CHECK=UtaN75o9T72x6prc3yxoWxiCxtaFReuS" >I want to make a single contribution.</a></p>';
+}
+  $(appendText).insertAfter("#ctl00_AllegMain_UPGRADETABLE");
  }
