@@ -14,8 +14,8 @@ form{background:white!important;border:1px solid #ccc;padding:1em;}
 .ALLEGELEMENTS{padding:3px!important;}
 .ALLEGHEADERS,.MAINTABLE,.MAINSHIPTABLE2,.ALLEGHEADERS div{width:100%!important;}
 .ALLEGHEADERS{}
-.ALLEGHEADERS div {display:none;}
-td.ALLEGHEADERSE{display:none!important}
+/* .ALLEGHEADERS div {display:none;}
+td.ALLEGHEADERSE{display:none!important} */
 .HEADERSTABLE{width:100%!important;}
 select,textarea,#ctl00_AllegMain_MATCH12,#ctl00_AllegMain_wrkEsalu,#ctl00_AllegMain_wrkAddr,#ctl00_AllegMain_wrkPhone,#ctl00_AllegMain_wrkEmail,#ctl00_AllegMain_MATCHLI{width:85%!important;}
 .ALLEGQUESTIONS{width:75%!important;}
