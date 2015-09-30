@@ -7,6 +7,7 @@ $('#ctl00_AllegMain_wrkPhone').attr('placeholder', '907-000-0000');
 
 insertHeaders();
 insertGiftChange();
+insertImageHeader();
 
 });
 function loadjscssfile(filename, filetype){
@@ -45,5 +46,12 @@ var givAmtHeader = '<h2 class="alaskapublicFormHighlight">1. How much would you 
 $(givAmtHeader).insertBefore("#ctl00_AllegMain_UPGRADETABLE");
 var payInfoHeader = '<h2 class="alaskapublicFormHighlight">2. Payment information</h2>'
 $(payInfoHeader).insertBefore("#ctl00_AllegMain_SECTIONNAMEADDRESS");
+
+}
+
+function insertImageHeader() {
+var formFirstElem = $( form ).first().children().first();
+var imgHeader = '<img src="https://buzzbold.github.io/mobi-llegiance/kska/akpm-web-logo-with-tagline.png" class="headerimg"/>';
+$(imgHeader).insertBefore(formFirstElem);
 
 }
