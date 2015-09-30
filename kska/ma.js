@@ -29,7 +29,7 @@ function loadjscssfile(filename, filetype){
 
  function appendGiftChange() {
 var allegMode = $("#ctl00_AllegMain_wrkAmountsPeriodic").val();
-console.log(allegMode);
+console.log('Giving Mode:'+ allegMode);
 var appendText;
 if (allegMode =="FULL") {
  appendText = '<p><a  id="linkForm monthly" href="http://bit.ly/1VRWuDG" >I want to make a monthly contribution.</a></p>';
