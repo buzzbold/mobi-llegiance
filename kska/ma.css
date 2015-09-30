@@ -15,7 +15,7 @@ form{background:white!important;border:1px solid #ccc;padding:1em;}
 .ALLEGHEADERS,.MAINTABLE,.MAINSHIPTABLE2,.ALLEGHEADERS div{width:100%!important;}
 .ALLEGHEADERS{}
  .ALLEGHEADERS div {display:none;}
-td.ALLEGHEADERSE{display:none!important} 
+td.ALLEGHEADERSE{display:none!important}
 .HEADERSTABLE{width:100%!important;}
 select,textarea,#ctl00_AllegMain_MATCH12,#ctl00_AllegMain_wrkEsalu,#ctl00_AllegMain_wrkAddr,#ctl00_AllegMain_wrkPhone,#ctl00_AllegMain_wrkEmail,#ctl00_AllegMain_MATCHLI{width:85%!important;}
 .ALLEGQUESTIONS{width:75%!important;}
@@ -36,6 +36,7 @@ pt!important;}
 h2.alaskapublicFormHighlight {
 color:white!important;
 font-size: 150%;
+font-weight: lighter;
 padding: .5em 1em;
 background-color:#BA0C2F;
 }
