@@ -29,5 +29,5 @@ function loadjscssfile(filename, filetype){
 
  function applyButtonStyle() {
 var sustText = '<span class="btnTxt">Make a Monthly Gift</span>';
-  $('#sust').parent().innerHTML(sustText);
+  $('#sust').parent().html(sustText);
  }
