@@ -34,9 +34,9 @@ pt!important;}
 
 h2.alaskapublicFormHighlight {
 color:white!important;
-font-weight: bold;
 font-size: 150%;
 padding: .5em 1em;
+background-color:#BA0C2F;
 }
 
 a, a:link, a:visited {

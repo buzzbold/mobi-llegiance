@@ -5,8 +5,8 @@ loadjscssfile("https://buzzbold.github.io/mobi-llegiance/js/jquery.radiosforbutt
  $('#ctl00_AllegMain_wrkEmail').attr('placeholder', 'me@mydomain.net');
 $('#ctl00_AllegMain_wrkPhone').attr('placeholder', '907-000-0000');
 
-
-appendGiftChange();
+insertHeaders()
+insertGiftChange();
 
 });
 function loadjscssfile(filename, filetype){
@@ -27,7 +27,7 @@ function loadjscssfile(filename, filetype){
 }
 
 
- function appendGiftChange() {
+ function insertGiftChange() {
 var allegMode = $("#ctl00_AllegMain_wrkAmountsPeriodic").val();
 console.log('Giving Mode:'+ allegMode);
 var appendText;
@@ -38,3 +38,11 @@ if (allegMode =="FULL") {
 }
   $(appendText).insertAfter("#ctl00_AllegMain_UPGRADETABLE");
  }
+
+function insertHeaders() {
+var givAmtHeader = '<h2 class="alaskapublicFormHighlight">1. How Much would you like to give?</h2>'
+$("#ctl00_AllegMain_UPGRADETABLE").parent().parent().parent().insertBefore(givAmtHeader);
+var payInfoHeader = '<h2 class="alaskapublicFormHighlight">2. Payment Information</h2>'
+$("#ctl00_AllegMain_SECTIONNAMEADDRESS").parent().parent().parent().insertBefore(payInfoHeader);
+
+}
