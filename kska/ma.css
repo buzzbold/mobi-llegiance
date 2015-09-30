@@ -37,7 +37,7 @@ h2.alaskapublicFormHighlight {font-size: 13pt!important}
 
 h2.alaskapublicFormHighlight {
 color:white!important;
-font-size: 18pt!important;
+font-size: 18pt;
 font-weight: lighter;
 padding: .5em 1em;
 background-color:#BA0C2F;
