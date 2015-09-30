@@ -1,4 +1,4 @@
-*{-webkit-transition:position .2s;transition:all .2s;}
+*{-webkit-transition:font-size .2s;transition:all .2s;}
 html{text-align:center;width:100%!important;position:relative;}
 body{text-align:left;width:100%!important;max-width:700px!important;font-size:12pt!important;background-image:url(https://buzzbold.github.io/mobi-llegiance/kska/akpm-page-background.jpg);margin:1em auto!important;position:relative;}
 table{width:100%!important;}
