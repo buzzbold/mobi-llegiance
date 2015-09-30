@@ -29,7 +29,7 @@ function loadjscssfile(filename, filetype){
 
  function applyButtonStyle() {
 
-var allegMode = $("#ctl00_AllegMain_wrkAmountsPeriodic").value();
+var allegMode = $("#ctl00_AllegMain_wrkAmountsPeriodic").val();
 console.log(allegMode);
 var sustText = '<span class="btn-giving-text" id="sustText" >Make a Monthly Gift Instead</span>';
   $('#sust').parent().addClass('btn-giving');
