@@ -46,6 +46,10 @@ var givAmtHeader = '<h2 class="alaskapublicFormHighlight">1. How much would you 
 $(givAmtHeader).insertBefore("#ctl00_AllegMain_UPGRADETABLE");
 var payInfoHeader = '<h2 class="alaskapublicFormHighlight">2. Payment information</h2>'
 $(payInfoHeader).insertBefore("#ctl00_AllegMain_SECTIONNAMEADDRESS");
+var addInfoHeader = '<h2 class="alaskapublicFormHighlight">3. A few more questions</h2>'
+$(addInfoHeader).insertBefore("#ctl00_AllegMain_ALLEGCLMATCH12");
+
+
 
 }
 
