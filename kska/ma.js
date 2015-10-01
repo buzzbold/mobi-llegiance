@@ -44,7 +44,7 @@ if (allegMode =="FULL") {
 function insertHeaders() {
 //$(".ALLEGHEADERS div").text("");
 
-if (typeof(allegMode)!='undefined') {
+if (typeof allegMode !='undefined') {
 var givAmtHeader = '<h2 class="alaskapublicFormHighlight">1. How much would you like to give?</h2>'
 $(givAmtHeader).insertBefore("#ctl00_AllegMain_UPGRADETABLE");
 var payInfoHeader = '<h2 class="alaskapublicFormHighlight">2. Payment information</h2>'
