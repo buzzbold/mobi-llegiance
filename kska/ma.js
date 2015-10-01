@@ -5,8 +5,10 @@ loadjscssfile("https://buzzbold.github.io/mobi-llegiance/js/jquery.radiosforbutt
  $('#ctl00_AllegMain_wrkEmail').attr('placeholder', 'me@mydomain.net');
 $('#ctl00_AllegMain_wrkPhone').attr('placeholder', '907-000-0000');
 
-insertHeaders();
-insertGiftChange();
+var allegMode = $("#ctl00_AllegMain_wrkAmountsPeriodic").val();
+
+insertGiftChange(allegMode);
+insertHeaders(allegMode);
 insertImageHeader();
 
 });
@@ -28,8 +30,7 @@ function loadjscssfile(filename, filetype){
 }
 
 
- function insertGiftChange() {
-var allegMode = $("#ctl00_AllegMain_wrkAmountsPeriodic").val();
+ function insertGiftChange(allegMode) {
 console.log('Giving Mode:'+ allegMode);
 var appendText;
 if (allegMode =="FULL") {
@@ -42,13 +43,18 @@ if (allegMode =="FULL") {
 
 function insertHeaders() {
 //$(".ALLEGHEADERS div").text("");
+
+if (typeof(allegMode)!='undefined') {
 var givAmtHeader = '<h2 class="alaskapublicFormHighlight">1. How much would you like to give?</h2>'
 $(givAmtHeader).insertBefore("#ctl00_AllegMain_UPGRADETABLE");
 var payInfoHeader = '<h2 class="alaskapublicFormHighlight">2. Payment information</h2>'
 $(payInfoHeader).insertBefore("#ctl00_AllegMain_SECTIONNAMEADDRESS");
 var addInfoHeader = '<h2 class="alaskapublicFormHighlight">3. A few more questions</h2>'
 $(addInfoHeader).insertBefore("#ctl00_AllegMain_ALLEGCLMATCH12");
-
+} else {
+  var payInfoHeader = '<h2 class="alaskapublicFormHighlight">Update your membership information</h2>'
+  $(payInfoHeader).insertBefore("#ctl00_AllegMain_SECTIONNAMEADDRESS");
+}
 
 
 }
