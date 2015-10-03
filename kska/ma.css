@@ -18,7 +18,7 @@ form{background:white!important;border:1px solid #ccc;padding:1em;}
  .ALLEGHEADERS div {}
 td.ALLEGHEADERSE{display:none!important}
 .HEADERSTABLE{width:100%!important;}
-select,textarea,#ctl00_AllegMain_MATCH12,#ctl00_AllegMain_wrkEsalu,#ctl00_AllegMain_wrkAddr,#ctl00_AllegMain_wrkPhone,#ctl00_AllegMain_wrkEmail,#ctl00_AllegMain_MATCHLI{width:85%!important;}
+select,textarea,#ctl00_AllegMain_MATCH12,#ctl00_AllegMain_wrkEsalu,#ctl00_AllegMain_wrkAddr,#ctl00_AllegMain_wrkPhone,#ctl00_AllegMain_wrkEmail,#ctl00_AllegMain_MATCHLI,#ctl00_AllegMain_CCNUM,#ctl00_AllegMain_CCEXP{width:85%!important;}
 .ALLEGQUESTIONS{width:75%!important;}
 input,select,textarea{border:1px solid #aaa!important;font-size:14pt!important;padding:.5em .3em;color:#666;}
 input[type="text"],textarea{box-shadow:0px -1px 5px #ddd inset;border-radius:3px}
